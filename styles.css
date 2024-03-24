@@ -1,0 +1,40 @@
+@font-face {
+    font-family: digital-7;
+    src: url('digital-7.regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    height: auto;
+    min-height: 100%;
+    background-size:cover;
+} */
+
+body {
+    margin: 0;
+    background: url(background.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#clock-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 63%, 0.11);
+    color: white;
+    font-family: digital-7;
+    font-weight: 500;
+}
